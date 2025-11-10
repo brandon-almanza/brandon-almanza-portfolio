@@ -1,6 +1,6 @@
 export const About = () => {
-    const frontendSkills = ["React", "Node.js", "Express", "JavaScript", "HTML", "CSS", "TailwindCSS"];
-    const backendSkills = ["C#", ".NET", "Java", "SQL", "MongoDB"];
+    const frontendSkills = ["React", "Node.js", "Express", "JavaScript", "HTML", "CSS"];
+    const backendSkills = ["C# .NET", "Java", "SQL", "MongoDB"];
 
     return (
         <section id="about" className="min-h-screen flex items-center justify-center py-20">
@@ -8,7 +8,7 @@ export const About = () => {
                 <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-purple-400 bg-clip-text text-transparent text-center">About Me</h2>
                 
                 <div className="rounded-xl p-8 border-white/10 border hover:translate-y-1 transition-all">
-                    <p className="text-gray-300 mb-6 text-center">Passionate aspiring developer with hands-on experience building applications in C# and Java,
+                    <p className="text-gray-300 mb-6 text-center">Passionate junior developer with hands-on experience building applications in C# and Java,
                          with additional knowledge of web technologies and server configuration.</p>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

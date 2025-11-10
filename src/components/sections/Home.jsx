@@ -5,9 +5,9 @@ export const Home = () => {
                 <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-purple-600  bg-clip-text leading-right text-transparent">Hi, I'm Brandon Almanza</h1>
 
                 <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-                    I'm a self-motivated software engineer with a passion for building robust and reliable applications.
-                     Currently looking for a Co-op/Internship position for Winter 2026 where I can apply my skills and
-                     contribute to exciting real world projects and learn from industry professionals.
+                    I'm a self-motivated junior software engineer with a passion for building robust and reliable applications.
+                     Actively looking for a Co-op/Internship position for Winter 2026 where I can apply and improve my skills and
+                     contribute to exciting real world projects and learn from professionals!
                 </p>
                 <div className="flex justify-center space-x-4">
 
