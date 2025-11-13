@@ -33,16 +33,16 @@ export const Projects = () => {
                             ))}
                         </div>
                         <div className="flex justify-between items-center mt-4">
-                            <a href="https://github.com/brandon-almanza/Client-Side-Web-Development/tree/main/Assignment%205%20(Bug%20Smasher%20Game)" 
+                            <a href="https://github.com/brandon-almanza/SpotifyAPI-Album-Finder" 
                             className="text-blue-400 hover:text-blue-300 transition-colors text-center mt-6">View Project </a>
                         </div>
                     </div>
                     <div className="p-6 rounded-xl border border-white/10 hover:translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
-                        <h3 className="text-xl font-bold mb-2">Load Balancer & Web Server Hosting</h3>
-                        <p className="text-gray-400 mb-4">Configured a load balancer with multiple web servers using CentOS virtual machines!
-                             Used Nginx configurations to distribute traffic efficiently and ensure high availability.</p>
+                        <h3 className="text-xl font-bold mb-2">Spotify Album Finder</h3>
+                        <p className="text-gray-400 mb-4">Web app that uses Spotify Web API to let users search for artists and view their albums in an interactive and responsive
+                             interface. It demonstrates API integration using React and OAuth 2.0 authentication.</p>
                         <div>
-                            {["CentOS", "HTML", "NGINX"].map((tech, key) => (
+                            {["HTML", "CSS", "JavaScript", "React", "Node.js", "Spotify API"].map((tech, key) => (
                                 <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm 
                                 hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
                                 {tech}
